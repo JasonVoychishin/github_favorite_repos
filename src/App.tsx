@@ -9,7 +9,7 @@ function App() {
     <>
           <Navigation/>
     <Routes>
-      <Route path='/' element={<HomePage />} />
+        <Route path='/github_favorite_repos/' element={<HomePage />} />
       <Route path='/favourites' element={<FavouritesPages />} />
     </Routes>
     </>
